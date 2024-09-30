@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitConnect - Transform Your Fitness Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Transform Your Fitness Journey with FitConnect!</h1>
+        <p>Your Personalized Remote Fitness Coaching Platform—Achieve Your Goals!</p>
+        <button onclick="showSignUp()">Start Your Free Trial Today!</button>
+    </header>
+
+    <section id="features">
+        <h2>Why Choose FitConnect?</h2>
+        <ul>
+            <li>Personalized Coaching</li>
+            <li>Flexible Workout Plans</li>
+            <li>Nutritional Guidance</li>
+            <li>Progress Tracking</li>
+            <li>Community Support</li>
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Users Are Saying:</h2>
+        <blockquote>
+            "FitConnect helped me lose 20 pounds in just 3 months! The personalized coaching made all the difference!" 
+            <cite>- Alex J.</cite>
+        </blockquote>
+        <blockquote>
+            "I love the flexibility of the workout plans! I can fit them into my busy schedule." 
+            <cite>- Maria K.</cite>
+        </blockquote>
+    </section>
+
+    <section id="pricing">
+        <h2>Affordable Plans:</h2>
+        <ul>
+            <li>Free Trial: 14-day free trial with no obligations.</li>
+            <li>Monthly Plan: $29/month after trial.</li>
+            <li>Annual Plan: $249/year (save 15%).</li>
+        </ul>
+        <button onclick="showSignUp()">Join Now!</button>
+    </section>
+
+    <section id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSignUp()">&times;</span>
+            <h2>Sign Up for FitConnect</h2>
+            <form id="signup-form" onsubmit="handleForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <p>Click to go back:</p>
+    <a href="index.html">Home Page</a>
+
+    <footer>
+        <p>&copy; 2024 FitConnect. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
