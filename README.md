@@ -1,1 +1,1 @@
-# Ronny-K
+# FitConnect is a comprehensive remote fitness coaching platform designed to empower users to achieve their fitness goals from the comfort of their own home. Whether you are looking to lose weight, build muscle, improve flexibility, or enhance overall health, FitConnect provides personalized coaching, workout plans, and nutritional guidance tailored to individual needs and preferences at an affordable price
